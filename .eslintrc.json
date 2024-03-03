@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
